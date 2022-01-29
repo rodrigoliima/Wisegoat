@@ -1,0 +1,87 @@
+#box1{
+    padding-left: 25%;
+    padding-top: 8%;
+}
+
+#box2{
+    display: inline-block;
+    margin-right: 80px;
+}
+
+.title{
+    color:#72005F;
+    font-size: 100pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitle{
+    color:#BAA193;
+    font-size: 47pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="submit"]{
+    color:#FFFFFF;
+    background-color: #72005F; 
+    font-size: 22pt;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: hidden;
+}
+
+.logo{
+    position: left;
+    display: block;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+.logotitle{
+    color:#72005F;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logosubtitle{
+    color:#BAA193;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    background-color: #eeb1e5ff;
+    border: black 1px solid; /*apagar depoois*/
+    
+    width: 750px;
+    max-height: 250px;
+    margin-left: 25%;
+    display: inline-block;
+}
+
+#message{
+    display: inline-block;
+    justify-content: left;
+    align-items: center;
+}
+
+.phrase{
+    color:#72005F;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.author{
+    color:#000000;
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home{
+    padding-top: 5%;
+    position: fixed;
+}
+
