@@ -11,14 +11,3 @@ const phases = [
 const phase = Math.floor(Math.random()*phases.length);
 
 console.log(phases[phase]);
-
-
-
-
-
-
-
-
-
-
-
