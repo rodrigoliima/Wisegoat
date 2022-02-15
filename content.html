@@ -5,41 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <script type="text/javascript" src="script.js"></script>
     <title>Wise Goat</title>
 </head>
-
-<body>  
-
+<body>
     <div class="logo">
         <div class="logosubtitle">Wise</div>
         <div class="logotitle"> Goat</div>
     </div>
-
-    <!-------------O foco e aqui ----------------------->
-
-    <div id="container">
-    
-        <div id="message"><!--Fazer o array para as frases ficarem aleatorias-->
-            <div class="phrase">"It always seems impossible, until it's done It always seems impossible, until it's done done done."</div><br>
-            <div class="author"> - Goat</div>
+    <div id="container1">    
+        <div id="container2">        
+            <div id="message">   
+                <div class="phrases"><script>document.write(phrases[phrase]);</script></div><br>
+                <div class="author"><b>- Goat</b></div>
+            </div>        
+            <div id="picture">
+                <img src="assets/goat.jpg" height="250px">
+            </div>
         </div>
-    
-        <div id="picture">
-            <img src="assets/goat.jpg" height="250px">
-        </div>
-
     </div>
-
-    <!-------------------------------------------------------->
-    
-
     <div class="home">
         <form method="get" action="index.html">
             <input type="submit" value="Home">
         </form>
-    </div>    
-
-    
-
+    </div>     
+    <div class="teste"></div>
 </body>
 </html>
