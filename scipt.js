@@ -1,4 +1,4 @@
-const phases = [
+const phrases = [
     "No meio da dificuldade encontra-se a oportunidade.",
     "O sucesso é ir de fracasso em fracasso sem perder o entusiasmo.",
     "De todas as atividades humanas, preocupar é a menos produtiva.",
@@ -8,6 +8,4 @@ const phases = [
     "Deus perdoa os nossos pecados, mas não nos poupa das consequências."
     ]
 
-const phase = Math.floor(Math.random()*phases.length);
-
-console.log(phases[phase]);
+const phrase = Math.floor(Math.random()*phrases.length);
